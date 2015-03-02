@@ -15,7 +15,7 @@ sudo apt-get install -y python-software-properties
 sudo apt-add-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y mongodb build-essential nodejs git
-https://github.com/Bossprogrammer1991/lets-chat.git
+git clone https://github.com/Bossprogrammer1991/lets-chat.git
 cd lets-chat
 git checkout #{LCB_BRANCH}
 npm install
